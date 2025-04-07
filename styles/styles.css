@@ -18,6 +18,19 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
+  --blue: #0073d8;
+  --dark-blue: #273691;
+  --teal: #006a71;
+  --green: #6cb33e;
+  --dark-green: #4f6e18;
+  --yellow: #ffe115;
+  --mustard: #c5aa2e;
+  --orange: #ff7017;
+  --red: #db2807;
+  --lilac: #6266b9;
+  --purple: #b41f75;
+  --dark-purple: #6a0c5f;
+  --dark-grey: #373738;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -41,6 +54,17 @@
   --breadcrumbs-height: 34px;
   --header-height: var(--nav-height);
 }
+
+/* theme colors */
+.blue { --theme-clr-background: var(--blue); --theme-clr-text: #fff }
+.teal { --theme-clr-background: var(--teal); --theme-clr-text: #fff }
+.green { --theme-clr-background: var(--green); --theme-clr-text: #fff }
+.orange { --theme-clr-background: var(--orange); --theme-clr-text: #fff }
+.red { --theme-clr-background: var(--red); --theme-clr-text: #fff }
+.lilac { --theme-clr-background: var(--lilac); --theme-clr-text: #fff }
+.purple { --theme-clr-background: var(--purple); --theme-clr-text: #fff }
+.dark-purple { --theme-clr-background: var(--dark-purple); --theme-clr-text: #fff }
+.dark-blue { --theme-clr-background: var(--dark-blue); --theme-clr-text: #fff }
 
 /* fallback fonts */
 @font-face {
