@@ -276,7 +276,8 @@ header nav .nav-tools {
 header nav .nav-tools .button {
   margin: 0;
   border: none;
-  padding: 0.5em;
+  padding: 0.25em;
+  height: 2em;
   background: none;
   line-height: 0;
 }
