@@ -150,6 +150,10 @@ pre {
   white-space: pre;
 }
 
+main {
+  padding-top: calc(var(--nav-height) + 20px);
+}
+
 main > div {
   margin: 40px 16px;
 }
